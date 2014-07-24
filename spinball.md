@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Spinball
-permalink: /games/spinball
+permalink: spinball
 ---
 
 Spinball News Here
