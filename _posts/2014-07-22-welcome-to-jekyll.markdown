@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2014-07-22 23:33:03
+title:  "New Website!"
+date:   2014-08-1 2:57:03
 categories: jekyll update
 ---
-
+<!-- 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
 To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
 
@@ -22,3 +22,7 @@ Check out the [Jekyll docs][jekyll] for more info on how to get the most out of 
 
 [jekyll-gh]: https://github.com/jekyll/jekyll
 [jekyll]:    http://jekyllrb.com
+
+-->
+
+Welcome to our new website. The new site is powered with Github Pages and Jekyll all for free! Hopefully we can get a tutorial out on how we achieved this once we get a few things sorted out and fixed. There's still lots of work to do on this site and we are going to be updating SlamatronSpinball in the coming weeks.
