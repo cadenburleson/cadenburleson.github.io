@@ -1,0 +1,42 @@
+---
+layout: post
+title:  "Test Post 1!"
+date:   2014-10-25 2:57:03
+categories: jekyll update
+---
+<!-- 
+You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
+To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
+
+Jekyll also offers powerful support for code snippets:
+
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
+Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
+
+[jekyll-gh]: https://github.com/jekyll/jekyll
+[jekyll]:    http://jekyllrb.com
+
+-->
+
+
+HELLO My NAMe is caden and I am very awesome welcome to the blog and what now!
+HELLO My NAMe is caden and I am very awesome welcome to the blog and what now!
+HELLO My NAMe is caden and I am very awesome welcome to the blog and what now!
+HELLO My NAMe is caden and I am very awesome welcome to the blog and what now!
+
+HELLO My NAMe is caden and I am very awesome welcome to the blog and what now!adjkfh
+adkjhfgaskfjhas;lfknsk;
+a fdskjfha 
+asdf khjad  adfjlhasdlkfjhsdjhfa;nlvas; ;skdjhfhls ;laskhf
+asdkjflhas 
+asdkfhj ;sdklfjhsdfa
+
+
+asdf;hs sdf asf HELLO My NAMe is caden and I am very awesome welcome to the blog and what now!
