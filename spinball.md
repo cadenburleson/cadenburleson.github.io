@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Spinball
+<!-- title: Spinball -->
 permalink: /games/spinball/
 ---
 <!--
@@ -12,11 +12,14 @@ You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://gi
 -->
 
 <div>
-	<p>Here's a video : </p>
-	<iframe width="420" height="345"
-		src="https://youtu.be/_xe3Q6DTj8s">
-	</iframe>
+	<header class="post-header">
+    	<h1>Spinball</h1>
+  	</header>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/_xe3Q6DTj8s" frameborder="0" allowfullscreen></iframe>
+
 	<p>version 1.1</p>
+
+	<a href="https://itunes.apple.com/us/app/slamatron-spinball/id894353581?mt=8">Download For FREE Here!</a>
 </div>
 
 
