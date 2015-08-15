@@ -2,10 +2,10 @@
 title: Slamatron
 email: caden.burleson@gmail.com
 description: "We want to bring the development process to you as we work to create great things."
-baseurl: "http://Slamatron.com"
-# url: "http://Slamatron.com"
+baseurl: ""
+url: "http://Slamatron.com"
 twitter_username: Slamatron
-github_username:  cadenburleson
+github_username: cadenburleson
 
 # Build settings
 markdown: kramdown
