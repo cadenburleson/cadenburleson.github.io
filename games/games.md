@@ -11,4 +11,3 @@ permalink: /games/
 		</ul>
 	</body>
 </html>
-
