@@ -14,13 +14,17 @@ You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://gi
 <div>
 	<header class="post-header">
     	<h1>Spinball</h1>
-  	
+
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/_xe3Q6DTj8s" frameborder="0" allowfullscreen></iframe>
 
-	<p>version 1.1</p>
+	<!-- <p>version 1.1</p> -->
 
-	<a href="https://itunes.apple.com/us/app/slamatron-spinball/id894353581?mt=8">Download For FREE Here!</a>
-	
+	<a href="https://itunes.apple.com/us/app/slamatron-spinball/id894353581?mt=8"> Download For FREE Here! </a>
+
+	<p>
+	<h1>slamatron is the bomb!</h1>
+	</p>
+
 		<p>
     		<a href="http://gamerssphere.com/2014/11/12/slamatron-spinball-radial-chaos/">
     			<h3>Spinball Review</h3>
@@ -30,5 +34,3 @@ You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://gi
   	</header>
 
 </div>
-
-
