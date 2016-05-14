@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Test Post With Code!"
-date:   2015-08-14 2:57:03
+title:  "HowToGetRich"
+date: 2016-04-22
 categories: jekyll update
 ---
 <!--
@@ -25,30 +25,14 @@ Check out the [Jekyll docs][jekyll] for more info on how to get the most out of 
 
 -->
 
-Here's a test post about code
+<h2>this is a h2 test in markdown</h2>
+<p>
+This is a test paragraph tag in markdown.
+We shall see what happens in this post when I update.
+</p>
 
-code snippet here:
-{% highlight c# %}
-
-using UnityEngine;
-using System.Collections;
-using UnityEngine.UI;
-
-public class CharacterFlying : MonoBehaviour {
-
-	private bool isHovering = false;
-	public Text timerObj;
-	private float myStartTime;
-	public float hoverValue = 0;
-	private bool isCursorShowing = true;
-	public CharacterController myCharacterController;
-
-	void Awake () {
-		myStartTime = Time.time;
-		Debug.Log("my Time.time = " + myStartTime);
-		//checking what the value of iscursorshowing is
-		Debug.Log("isCursorSHowing on Awake = " + isCursorShowing);
-	}
-}
-
-{% endhighlight %}
+<img
+src = "http://localhost:4000/assets/screenshot.jpg"
+alt = "my helpful screenshot"
+style="width:300px;height:300px;"
+/>

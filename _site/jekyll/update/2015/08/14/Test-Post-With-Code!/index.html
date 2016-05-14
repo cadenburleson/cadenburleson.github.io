@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Blog</title>
+    <title>Test Post With Code!</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="We want to bring the development process to you as we work to create great things.">
-    <link rel="canonical" href="http://Slamatron.com/blog/">
+    <link rel="canonical" href="http://Slamatron.com/jekyll/update/2015/08/14/Test-Post-With-Code!/">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/main.css">
@@ -59,35 +59,56 @@
         <div class="wrap">
           <div class="post">
   <header class="post-header">
-    <h1>Blog</h1>
+    <h1>Test Post With Code!</h1>
+    <p class="meta">Aug 14, 2015</p>
   </header>
   <article class="post-content">
-    <div class="home">
+    <!--
+You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
+To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
 
-  <h1>Posts</h1>
+Jekyll also offers powerful support for code snippets:
 
-  <ul class="posts">
-    
-      <li>
-        <span class="post-date">Apr 22, 2016</span>
-        <a class="post-link" href="/jekyll/update/2016/04/22/How-To-Get-Rich/">HowToGetRich</a>
-      </li>
-    
-      <li>
-        <span class="post-date">Aug 14, 2015</span>
-        <a class="post-link" href="/jekyll/update/2015/08/14/Test-Post-With-Code!/">Test Post With Code!</a>
-      </li>
-    
-      <li>
-        <span class="post-date">Oct 25, 2014</span>
-        <a class="post-link" href="/jekyll/update/2014/10/25/Test-Post-1/">Test Post 1!</a>
-      </li>
-    
-  </ul>
 
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
 
-</div>
+
+Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
+
+[jekyll-gh]: https://github.com/jekyll/jekyll
+[jekyll]:    http://jekyllrb.com
+
+-->
+
+<p>Here’s a test post about code</p>
+
+<p>code snippet here:</p>
+
+<figure class="highlight"><pre><code class="language-c#" data-lang="c#"><span class="k">using</span> <span class="nn">UnityEngine</span><span class="p">;</span>
+<span class="k">using</span> <span class="nn">System.Collections</span><span class="p">;</span>
+<span class="k">using</span> <span class="nn">UnityEngine.UI</span><span class="p">;</span>
+
+<span class="k">public</span> <span class="k">class</span> <span class="nc">CharacterFlying</span> <span class="p">:</span> <span class="n">MonoBehaviour</span> <span class="p">{</span>
+
+	<span class="k">private</span> <span class="kt">bool</span> <span class="n">isHovering</span> <span class="p">=</span> <span class="k">false</span><span class="p">;</span>
+	<span class="k">public</span> <span class="n">Text</span> <span class="n">timerObj</span><span class="p">;</span>
+	<span class="k">private</span> <span class="kt">float</span> <span class="n">myStartTime</span><span class="p">;</span>
+	<span class="k">public</span> <span class="kt">float</span> <span class="n">hoverValue</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span>
+	<span class="k">private</span> <span class="kt">bool</span> <span class="n">isCursorShowing</span> <span class="p">=</span> <span class="k">true</span><span class="p">;</span>
+	<span class="k">public</span> <span class="n">CharacterController</span> <span class="n">myCharacterController</span><span class="p">;</span>
+
+	<span class="k">void</span> <span class="nf">Awake</span> <span class="p">()</span> <span class="p">{</span>
+		<span class="n">myStartTime</span> <span class="p">=</span> <span class="n">Time</span><span class="p">.</span><span class="n">time</span><span class="p">;</span>
+		<span class="n">Debug</span><span class="p">.</span><span class="nf">Log</span><span class="p">(</span><span class="s">"my Time.time = "</span> <span class="p">+</span> <span class="n">myStartTime</span><span class="p">);</span>
+		<span class="c1">//checking what the value of iscursorshowing is
+</span>		<span class="n">Debug</span><span class="p">.</span><span class="nf">Log</span><span class="p">(</span><span class="s">"isCursorSHowing on Awake = "</span> <span class="p">+</span> <span class="n">isCursorShowing</span><span class="p">);</span>
+	<span class="p">}</span>
+<span class="p">}</span></code></pre></figure>
+
 
   </article>
 </div>

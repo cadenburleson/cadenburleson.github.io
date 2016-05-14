@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "New Website!"
-date:   2014-08-1 2:57:03
+title:  "Test Post With Code!"
+date: 2015-08-14
 categories: jekyll update
 ---
-<!-- 
+<!--
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
 To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
 
@@ -25,4 +25,30 @@ Check out the [Jekyll docs][jekyll] for more info on how to get the most out of 
 
 -->
 
-Welcome to our new website. The new site is powered with Github Pages and Jekyll all for free! Hopefully we can get a tutorial out on how we achieved this once we get a few things sorted out and fixed. There's still lots of work to do on this site and we are going to be updating SlamatronSpinball in the coming weeks.
+Here's a test post about code
+
+code snippet here:
+{% highlight c# %}
+
+using UnityEngine;
+using System.Collections;
+using UnityEngine.UI;
+
+public class CharacterFlying : MonoBehaviour {
+
+	private bool isHovering = false;
+	public Text timerObj;
+	private float myStartTime;
+	public float hoverValue = 0;
+	private bool isCursorShowing = true;
+	public CharacterController myCharacterController;
+
+	void Awake () {
+		myStartTime = Time.time;
+		Debug.Log("my Time.time = " + myStartTime);
+		//checking what the value of iscursorshowing is
+		Debug.Log("isCursorSHowing on Awake = " + isCursorShowing);
+	}
+}
+
+{% endhighlight %}
