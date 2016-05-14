@@ -7,6 +7,7 @@ permalink: /games/
 	<body>
 		<ul>
 			<li><a href="/games/spinball"> Spinball </a></li>
+			<li><a href="/games/MoneyGame"> MoneyGame </a></li>
 			<li><a href="/games/superhero.me"> Superhero.me </a></li>
 		</ul>
 	</body>
