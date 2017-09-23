@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: About
 permalink: /about/
 ---
@@ -10,6 +10,8 @@ You can find the source code for the Jekyll new theme at: [github.com/jglovier/j
 
 You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
 -->
+
+
 We are a games company. We want to bring the development process to you. To do this we want to be very open with our customers so that they are some what a part of the company.
 Please check out the contact page for further info on how to stay connected with us and follow development as we create things together!
 Thank You!
