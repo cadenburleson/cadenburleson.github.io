@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 <!-- title: Superhero.me -->
 permalink: /games/superhero.me/
 ---

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 <!-- title: Spinball -->
 permalink: /games/spinball/
 ---
