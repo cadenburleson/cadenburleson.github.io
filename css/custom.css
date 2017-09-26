@@ -6,6 +6,12 @@ body {
   background-color: #fdfdfd;
 }
 
+.pageslot {
+  height: 600px;
+  width: 100%;
+  background-color: #4e4e4e;
+}
+
 /*p {
   font-size: 10px;
 }*/
