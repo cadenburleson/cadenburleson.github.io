@@ -19,6 +19,7 @@ permalink: /team/
 				<p>
 					<a href="https://docs.google.com/document/d/1yoBM2ocbgjIMC0FEMftuDyluynPI1jRHzNSGnc05do0/edit?usp=sharing" class="btn btn-default" role="button">Resume</a>
 					<a href="#" class="btn btn-default" role="button">Art</a>
+					<a href="https://medium.com/@CadenBurleson" class="btn btn-default" role="button">Blog</a>
 				</p>
 			</div>
 		</div>

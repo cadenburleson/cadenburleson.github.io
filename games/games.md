@@ -8,8 +8,9 @@ permalink: /games/
 	<h1>Games</h1>
 		<ul>
 			<li><a href="/games/spinball"> Spinball </a></li>
-			<li><a href="/games/MoneyGame"> MoneyGame </a></li>
+			<li><a href="/games/moneygame"> MoneyGame </a></li>
 			<li><a href="/games/superhero.me"> Superhero.me </a></li>
+			<li><a href="/games/infiniterunner"> InfiniteRunner </a></li>
 		</ul>
 
 <!-- <div class="pageslot" style=" width 100%; height 600px color= rgb(170, 213, 9);">
