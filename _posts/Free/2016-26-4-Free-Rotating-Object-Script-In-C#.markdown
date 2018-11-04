@@ -2,7 +2,8 @@
 layout: post
 title:  "Free Rotating Object Script in C#"
 date: 2016-05-13
-categories: jekyll update
+categories: [blog, free]
+# tags: [hot, summer]
 ---
 <!--
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!

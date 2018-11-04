@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Free Rotating Object Script in C#</title>
+    <title>Slamatron</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="We are a games company. We want to bring the development process to you as we work to create great things. Come hangout and chat with us here : https://discord.gg/zz8FWU4">
-    <link rel="canonical" href="http://localhost:4000/jekyll/update/2016/05/13/Free-Rotating-Object-Script-In-C/">
+    <link rel="canonical" href="http://localhost:4000/blog/tags/infiniterunnerposts">
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/png" href="/favicon.png">
     <!-- Custom CSS -->
@@ -51,11 +51,17 @@
         
           
         
+          
+        
           <a class="page-link" href="/contact/">Contact</a>
         
           
         
+          
+        
           <a class="page-link" href="/games/">Games</a>
+        
+          
         
           
         
@@ -78,95 +84,24 @@
 
       <div class="page-content container">
         <div class="wrap">
-          <div class="post">
-  <header class="post-header">
-    <h1>Free Rotating Object Script in C#</h1>
-    <p class="meta">May 13, 2016</p>
+          <div>
+	<header class="post-header">
+    	<h1>Free Posts</h1>
   </header>
-  <article class="post-content">
-    <!--
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
+	
+	<p></p>
+	
+<h2>Collection of posts tagged with 'infiniterunner' : </h2>
 
-Jekyll also offers powerful support for code snippets:
+	<ul class="posts">
+    
+      <li>
+        <span class="post-date">May 13, 2016</span>
+        <a class="post-link" href="/blog/infiniterunner/2016/05/13/Infinite-Runner-Test-Post/">Infinite-Runner Test Post</a>
+      </li>
+    
+  </ul>
 
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
-
-
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
-
-[jekyll-gh]: https://github.com/jekyll/jekyll
-[jekyll]:    http://jekyllrb.com
-
--->
-
-<p>
-Here's the code :
-</p>
-
-<!-- <img
-src = "http://localhost:4000/assets/screenshot.jpg"
-alt = "my helpful screenshot"
-style="width:300px;height:300px;"
-/> -->
-
-<figure class="highlight"><pre><code class="language-c#" data-lang="c#">  <span class="k">using</span> <span class="nn">UnityEngine</span><span class="p">;</span>
-  <span class="k">using</span> <span class="nn">System.Collections</span><span class="p">;</span>
-
-  <span class="k">public</span> <span class="k">class</span> <span class="nc">RotatingObject</span> <span class="p">:</span> <span class="n">MonoBehaviour</span> <span class="p">{</span>
-
-  	<span class="k">public</span> <span class="kt">float</span> <span class="n">myRotationSpeed</span> <span class="p">=</span> <span class="m">100.0f</span><span class="p">;</span>
-
-  	<span class="k">public</span> <span class="kt">bool</span> <span class="n">isRotateX</span> <span class="p">=</span> <span class="k">false</span><span class="p">;</span>
-  	<span class="k">public</span> <span class="kt">bool</span> <span class="n">isRotateY</span> <span class="p">=</span> <span class="k">false</span><span class="p">;</span>
-  	<span class="k">public</span> <span class="kt">bool</span> <span class="n">isRotateZ</span> <span class="p">=</span> <span class="k">false</span><span class="p">;</span>
-
-  	<span class="c1">// CHANGE TO ROTATE IN OPPOSITE DIRECTION</span>
-  	<span class="k">private</span> <span class="kt">bool</span> <span class="n">positiveRotation</span> <span class="p">=</span> <span class="k">false</span><span class="p">;</span>
-  	<span class="k">private</span> <span class="kt">int</span> <span class="n">posOrNeg</span> <span class="p">=</span> <span class="m">1</span><span class="p">;</span>
-
-  	<span class="c1">// Use this for initialization</span>
-  	<span class="k">void</span> <span class="nf">Start</span> <span class="p">(){</span>
-  		<span class="n">collider</span><span class="p">.</span><span class="n">isTrigger</span> <span class="p">=</span> <span class="k">true</span><span class="p">;</span>
-  		<span class="k">if</span><span class="p">(</span><span class="n">positiveRotation</span> <span class="p">==</span> <span class="k">false</span><span class="p">){</span>
-  			<span class="n">posOrNeg</span> <span class="p">=</span> <span class="p">-</span><span class="m">1</span><span class="p">;</span>
-  		<span class="p">}</span>
-  	<span class="p">}</span>
-
-  	<span class="c1">// Update is called once per frame</span>
-  	<span class="k">void</span> <span class="nf">Update</span> <span class="p">(){</span>
-  		<span class="c1">//  Toggles X Rotation</span>
-  		<span class="k">if</span><span class="p">(</span><span class="n">isRotateX</span><span class="p">){</span>
-  			<span class="n">transform</span><span class="p">.</span><span class="nf">Rotate</span><span class="p">(</span><span class="n">myRotationSpeed</span> <span class="p">*</span> <span class="n">Time</span><span class="p">.</span><span class="n">deltaTime</span> <span class="p">*</span> <span class="n">posOrNeg</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="m">0</span><span class="p">);</span><span class="c1">//rotates coin on X axis</span>
-  		<span class="p">}</span>
-  		<span class="c1">//  Toggles Y Rotation</span>
-  		<span class="k">if</span><span class="p">(</span><span class="n">isRotateY</span><span class="p">){</span>
-  			<span class="n">transform</span><span class="p">.</span><span class="nf">Rotate</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="n">myRotationSpeed</span> <span class="p">*</span> <span class="n">Time</span><span class="p">.</span><span class="n">deltaTime</span> <span class="p">*</span> <span class="n">posOrNeg</span><span class="p">,</span> <span class="m">0</span><span class="p">);</span><span class="c1">//rotates coin on Y axis</span>
-  		<span class="p">}</span>
-  		<span class="c1">//  Toggles Z Rotation</span>
-  		<span class="k">if</span><span class="p">(</span><span class="n">isRotateZ</span><span class="p">){</span>
-  			<span class="n">transform</span><span class="p">.</span><span class="nf">Rotate</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="n">myRotationSpeed</span> <span class="p">*</span> <span class="n">Time</span><span class="p">.</span><span class="n">deltaTime</span> <span class="p">*</span> <span class="n">posOrNeg</span><span class="p">);</span><span class="c1">//rotates coin on Z axis</span>
-  		<span class="p">}</span>
-  	<span class="p">}</span>
-
-  <span class="p">}</span>
-
-  <span class="p">}</span></code></pre></figure>
-
-<p>
-Here's a demonstration on how to use the script :
-</p>
-
-<p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-ZujPUORn94" frameborder="0" allowfullscreen=""></iframe>
-</p>
-
-  </article>
 </div>
 
         </div>

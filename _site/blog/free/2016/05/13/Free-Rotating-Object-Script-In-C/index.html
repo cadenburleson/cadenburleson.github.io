@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Team</title>
+    <title>Free Rotating Object Script in C#</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="We are a games company. We want to bring the development process to you as we work to create great things. Come hangout and chat with us here : https://discord.gg/zz8FWU4">
-    <link rel="canonical" href="http://localhost:4000/team/">
+    <link rel="canonical" href="http://localhost:4000/blog/free/2016/05/13/Free-Rotating-Object-Script-In-C/">
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/png" href="/favicon.png">
     <!-- Custom CSS -->
@@ -84,60 +84,96 @@
 
       <div class="page-content container">
         <div class="wrap">
-          <html>
-<body>
+          <div class="post">
+  <header class="post-header">
+    <h1>Free Rotating Object Script in C#</h1>
+    <p class="meta">May 13, 2016</p>
+  </header>
+  <article class="post-content">
+    <!--
+You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
+To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
 
-<h1>Team</h1>
-
-<div class="row">
-	<div class="col-sm-6 col-md-4">
-		<div class="thumbnail">
-			<img src="/assets/pfpme.jpg" alt="CadenProfilePic" style="width:150px; height:150px; border-radius: 50%;" />
-			<div class="caption">
-				<h3>Caden Burleson</h3>
-				<h5>CEO / Founder</h5>
-				<p>This is a little description about caden and his abilities as a dope person.</p>
-				<p>
-					<a href="https://docs.google.com/document/d/1yoBM2ocbgjIMC0FEMftuDyluynPI1jRHzNSGnc05do0/edit?usp=sharing" class="btn btn-default" role="button">Resume</a>
-					<a href="#" class="btn btn-default" role="button">Art</a>
-					<a href="https://medium.com/@CadenBurleson" class="btn btn-default" role="button">Blog</a>
-				</p>
-			</div>
-		</div>
-	</div>
+Jekyll also offers powerful support for code snippets:
 
 
-<div class="col-sm-6 col-md-4">
-	<div class="thumbnail">
-		<img src="/assets/guest_pfp.png" alt="CadenProfilePic" style="width:150px; height:150px; border-radius: 50%;" />
-		<div class="caption">
-			<h3>Your Name Here</h3>
-			<h5>Your Title Here</h5>
-			<p>Your wonderful achievements and Bio here.</p>
-			<p>
-				<a href="https://Slamatron.com/comingsoon/" class="btn btn-default" role="button">Apply To Our Team</a>
-				<!-- <a href="#" class="btn btn-default" role="button">Art</a> -->
-			</p>
-		</div>
-	</div>
-</div>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+
+Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
+
+[jekyll-gh]: https://github.com/jekyll/jekyll
+[jekyll]:    http://jekyllrb.com
+
+-->
 
 <p>
-	We are currently looking for talented individuals who are driven by a vision and a dream.
-	So use the blank card link to apply TODAY!
+Here's the code :
 </p>
 
+<!-- <img
+src = "http://localhost:4000/assets/screenshot.jpg"
+alt = "my helpful screenshot"
+style="width:300px;height:300px;"
+/> -->
+
+<figure class="highlight"><pre><code class="language-c#" data-lang="c#">  <span class="k">using</span> <span class="nn">UnityEngine</span><span class="p">;</span>
+  <span class="k">using</span> <span class="nn">System.Collections</span><span class="p">;</span>
+
+  <span class="k">public</span> <span class="k">class</span> <span class="nc">RotatingObject</span> <span class="p">:</span> <span class="n">MonoBehaviour</span> <span class="p">{</span>
+
+  	<span class="k">public</span> <span class="kt">float</span> <span class="n">myRotationSpeed</span> <span class="p">=</span> <span class="m">100.0f</span><span class="p">;</span>
+
+  	<span class="k">public</span> <span class="kt">bool</span> <span class="n">isRotateX</span> <span class="p">=</span> <span class="k">false</span><span class="p">;</span>
+  	<span class="k">public</span> <span class="kt">bool</span> <span class="n">isRotateY</span> <span class="p">=</span> <span class="k">false</span><span class="p">;</span>
+  	<span class="k">public</span> <span class="kt">bool</span> <span class="n">isRotateZ</span> <span class="p">=</span> <span class="k">false</span><span class="p">;</span>
+
+  	<span class="c1">// CHANGE TO ROTATE IN OPPOSITE DIRECTION</span>
+  	<span class="k">private</span> <span class="kt">bool</span> <span class="n">positiveRotation</span> <span class="p">=</span> <span class="k">false</span><span class="p">;</span>
+  	<span class="k">private</span> <span class="kt">int</span> <span class="n">posOrNeg</span> <span class="p">=</span> <span class="m">1</span><span class="p">;</span>
+
+  	<span class="c1">// Use this for initialization</span>
+  	<span class="k">void</span> <span class="nf">Start</span> <span class="p">(){</span>
+  		<span class="n">collider</span><span class="p">.</span><span class="n">isTrigger</span> <span class="p">=</span> <span class="k">true</span><span class="p">;</span>
+  		<span class="k">if</span><span class="p">(</span><span class="n">positiveRotation</span> <span class="p">==</span> <span class="k">false</span><span class="p">){</span>
+  			<span class="n">posOrNeg</span> <span class="p">=</span> <span class="p">-</span><span class="m">1</span><span class="p">;</span>
+  		<span class="p">}</span>
+  	<span class="p">}</span>
+
+  	<span class="c1">// Update is called once per frame</span>
+  	<span class="k">void</span> <span class="nf">Update</span> <span class="p">(){</span>
+  		<span class="c1">//  Toggles X Rotation</span>
+  		<span class="k">if</span><span class="p">(</span><span class="n">isRotateX</span><span class="p">){</span>
+  			<span class="n">transform</span><span class="p">.</span><span class="nf">Rotate</span><span class="p">(</span><span class="n">myRotationSpeed</span> <span class="p">*</span> <span class="n">Time</span><span class="p">.</span><span class="n">deltaTime</span> <span class="p">*</span> <span class="n">posOrNeg</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="m">0</span><span class="p">);</span><span class="c1">//rotates coin on X axis</span>
+  		<span class="p">}</span>
+  		<span class="c1">//  Toggles Y Rotation</span>
+  		<span class="k">if</span><span class="p">(</span><span class="n">isRotateY</span><span class="p">){</span>
+  			<span class="n">transform</span><span class="p">.</span><span class="nf">Rotate</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="n">myRotationSpeed</span> <span class="p">*</span> <span class="n">Time</span><span class="p">.</span><span class="n">deltaTime</span> <span class="p">*</span> <span class="n">posOrNeg</span><span class="p">,</span> <span class="m">0</span><span class="p">);</span><span class="c1">//rotates coin on Y axis</span>
+  		<span class="p">}</span>
+  		<span class="c1">//  Toggles Z Rotation</span>
+  		<span class="k">if</span><span class="p">(</span><span class="n">isRotateZ</span><span class="p">){</span>
+  			<span class="n">transform</span><span class="p">.</span><span class="nf">Rotate</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="n">myRotationSpeed</span> <span class="p">*</span> <span class="n">Time</span><span class="p">.</span><span class="n">deltaTime</span> <span class="p">*</span> <span class="n">posOrNeg</span><span class="p">);</span><span class="c1">//rotates coin on Z axis</span>
+  		<span class="p">}</span>
+  	<span class="p">}</span>
+
+  <span class="p">}</span>
+
+  <span class="p">}</span></code></pre></figure>
+
+<p>
+Here's a demonstration on how to use the script :
+</p>
+
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-ZujPUORn94" frameborder="0" allowfullscreen=""></iframe>
+</p>
+
+  </article>
 </div>
-
-
-
-<!-- <h2> Caden Burleson's Alter Ego </h2>
-<h4> Arch Nemesis </h4>
-<img src="/assets/pfpme.jpg" alt="CadenProfilePic" style="width:150px; height:150px; border-radius: 50%;"> -->
-
-
-</body>
-</html>
 
         </div>
       </div>

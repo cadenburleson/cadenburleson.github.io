@@ -22,4 +22,16 @@ permalink: /games/infiniterunner/
 	<p>
 		Coming Soon!
 	</p>
+
+<h2>Posts : </h2>
+
+	<ul class="posts">
+    {% for post in site.categories.infiniterunner %}
+      <li>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  	</ul>
+
 </div>

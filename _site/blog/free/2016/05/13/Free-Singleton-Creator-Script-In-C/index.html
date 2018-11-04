@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Team</title>
+    <title>Free Singleton Creator Script in C#</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="We are a games company. We want to bring the development process to you as we work to create great things. Come hangout and chat with us here : https://discord.gg/zz8FWU4">
-    <link rel="canonical" href="http://localhost:4000/team/">
+    <link rel="canonical" href="http://localhost:4000/blog/free/2016/05/13/Free-Singleton-Creator-Script-In-C/">
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/png" href="/favicon.png">
     <!-- Custom CSS -->
@@ -84,60 +84,73 @@
 
       <div class="page-content container">
         <div class="wrap">
-          <html>
-<body>
+          <div class="post">
+  <header class="post-header">
+    <h1>Free Singleton Creator Script in C#</h1>
+    <p class="meta">May 13, 2016</p>
+  </header>
+  <article class="post-content">
+    <!--
+You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
+To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
 
-<h1>Team</h1>
-
-<div class="row">
-	<div class="col-sm-6 col-md-4">
-		<div class="thumbnail">
-			<img src="/assets/pfpme.jpg" alt="CadenProfilePic" style="width:150px; height:150px; border-radius: 50%;" />
-			<div class="caption">
-				<h3>Caden Burleson</h3>
-				<h5>CEO / Founder</h5>
-				<p>This is a little description about caden and his abilities as a dope person.</p>
-				<p>
-					<a href="https://docs.google.com/document/d/1yoBM2ocbgjIMC0FEMftuDyluynPI1jRHzNSGnc05do0/edit?usp=sharing" class="btn btn-default" role="button">Resume</a>
-					<a href="#" class="btn btn-default" role="button">Art</a>
-					<a href="https://medium.com/@CadenBurleson" class="btn btn-default" role="button">Blog</a>
-				</p>
-			</div>
-		</div>
-	</div>
+Jekyll also offers powerful support for code snippets:
 
 
-<div class="col-sm-6 col-md-4">
-	<div class="thumbnail">
-		<img src="/assets/guest_pfp.png" alt="CadenProfilePic" style="width:150px; height:150px; border-radius: 50%;" />
-		<div class="caption">
-			<h3>Your Name Here</h3>
-			<h5>Your Title Here</h5>
-			<p>Your wonderful achievements and Bio here.</p>
-			<p>
-				<a href="https://Slamatron.com/comingsoon/" class="btn btn-default" role="button">Apply To Our Team</a>
-				<!-- <a href="#" class="btn btn-default" role="button">Art</a> -->
-			</p>
-		</div>
-	</div>
-</div>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+
+Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
+
+[jekyll-gh]: https://github.com/jekyll/jekyll
+[jekyll]:    http://jekyllrb.com
+
+-->
 
 <p>
-	We are currently looking for talented individuals who are driven by a vision and a dream.
-	So use the blank card link to apply TODAY!
+Here's the code :
 </p>
 
+<!-- <img
+src = "http://localhost:4000/assets/screenshot.jpg"
+alt = "my helpful screenshot"
+style="width:300px;height:300px;"
+/> -->
+
+<figure class="highlight"><pre><code class="language-c#" data-lang="c#"><span class="k">using</span> <span class="nn">System.Collections</span><span class="p">;</span>
+<span class="k">using</span> <span class="nn">System.Collections.Generic</span><span class="p">;</span>
+<span class="k">using</span> <span class="nn">UnityEngine</span><span class="p">;</span>
+
+<span class="k">public</span> <span class="k">class</span> <span class="nc">Singleton</span> <span class="p">:</span> <span class="n">MonoBehaviour</span> <span class="p">{</span>
+
+	<span class="k">public</span> <span class="k">static</span> <span class="n">Singleton</span> <span class="n">instance</span><span class="p">;</span>
+
+	<span class="k">public</span> <span class="k">void</span> <span class="nf">Awake</span><span class="p">(){</span>
+
+		<span class="k">if</span> <span class="p">(</span><span class="n">instance</span> <span class="p">==</span> <span class="k">null</span><span class="p">){</span>
+			<span class="n">instance</span> <span class="p">=</span> <span class="k">this</span><span class="p">;</span>
+			<span class="nf">DontDestroyOnLoad</span><span class="p">(</span><span class="n">gameObject</span><span class="p">);</span>
+		<span class="p">}</span><span class="k">else</span><span class="p">{</span>
+			<span class="nf">Destroy</span><span class="p">(</span><span class="n">gameObject</span><span class="p">);</span>
+		<span class="p">}</span>
+
+	<span class="p">}</span>
+<span class="p">}</span></code></pre></figure>
+
+<p>
+	Attach this script to any object in your scene to have it persist between scenes as a singleton.
+</p>
+<p>
+	This script helps you follow the MonoBehavior 'component' principal, where one script will do one simple task.
+	This helps you manage code easier and find bugs faster.
+</p>
+
+  </article>
 </div>
-
-
-
-<!-- <h2> Caden Burleson's Alter Ego </h2>
-<h4> Arch Nemesis </h4>
-<img src="/assets/pfpme.jpg" alt="CadenProfilePic" style="width:150px; height:150px; border-radius: 50%;"> -->
-
-
-</body>
-</html>
 
         </div>
       </div>
