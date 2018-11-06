@@ -6,7 +6,7 @@ permalink: /blog/tags/blogposts
 
 <div>
 	<header class="post-header">
-    	<h1>Free Posts</h1>
+    	<h1>Blog Posts</h1>
   </header>
 	
 	<p></p>

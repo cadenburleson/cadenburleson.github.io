@@ -9,7 +9,7 @@ permalink: /blog/tags/infiniterunnerposts
 
 <div>
 	<header class="post-header">
-    	<h1>Free Posts</h1>
+    	<h1>InfiniteRunner Posts</h1>
   </header>
 	
 	<p></p>
