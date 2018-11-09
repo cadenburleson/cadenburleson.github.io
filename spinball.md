@@ -18,8 +18,17 @@ You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://gi
 			<p>
 				These videos are only early video concepts.
 			</p>
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/_xe3Q6DTj8s" frameborder="0" allowfullscreen></iframe>
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/eXTe3cUHWZQ" frameborder="0" allowfullscreen></iframe>
+			<div class="embed-responsive embed-responsive-16by9">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/_xe3Q6DTj8s" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<div class="embed-responsive embed-responsive-16by9">
+				<iframe width="560" height="315, initial-scale=1" src="https://www.youtube.com/embed/eXTe3cUHWZQ" frameborder="0" allowfullscreen></iframe>
+			</div>
+
+			<!-- <div class="embed-responsive embed-responsive-16by9">
+  				<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+			</div> -->
+			
 			<p>
 				<p>
 					Released on July 12, 2014.
