@@ -1,10 +1,12 @@
 ---
 layout: post
-title:  "Infinite-Runner Test Post"
-date: 2016-05-13
+title:  "Infinite-Runner DevLog #1"
+date: 2019-04-23
 categories: [blog, infiniterunner]
 # tags: [hot, summer]
 ---
+
+<H3>Release</H3>
 
 <p>Here's the code :</p>
 

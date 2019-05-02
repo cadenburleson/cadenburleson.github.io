@@ -5,13 +5,15 @@
     <description>We are a games company. We want to bring the development process to you as we work to create great things. Come hangout and chat with us here : https://discord.gg/zz8FWU4</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 08 Nov 2018 19:36:05 -0600</pubDate>
-    <lastBuildDate>Thu, 08 Nov 2018 19:36:05 -0600</lastBuildDate>
-    <generator>Jekyll v3.8.4</generator>
+    <pubDate>Thu, 02 May 2019 00:07:58 -0500</pubDate>
+    <lastBuildDate>Thu, 02 May 2019 00:07:58 -0500</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
     
       <item>
-        <title>Infinite-Runner Test Post</title>
-        <description>&lt;p&gt;Here's the code :&lt;/p&gt;
+        <title>Infinite-Runner DevLog #1</title>
+        <description>&lt;h3&gt;Release&lt;/h3&gt;
+
+&lt;p&gt;Here's the code :&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c#&quot; data-lang=&quot;c#&quot;&gt;	&lt;span class=&quot;n&quot;&gt;NO&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;CODE&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;TO&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;SHOW&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;HERE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;
 	&lt;span class=&quot;n&quot;&gt;JUST&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;A&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;TEST&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;!&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
@@ -19,9 +21,9 @@
 &lt;p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;
 </description>
-        <pubDate>Fri, 13 May 2016 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/infiniterunner/2016/05/13/Infinite-Runner-Test-Post/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/infiniterunner/2016/05/13/Infinite-Runner-Test-Post/</guid>
+        <pubDate>Tue, 23 Apr 2019 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/blog/infiniterunner/2019/04/23/Infinite-Runner-Test-Post/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/infiniterunner/2019/04/23/Infinite-Runner-Test-Post/</guid>
         
         
         <category>blog</category>
