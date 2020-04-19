@@ -31,4 +31,10 @@ Our twitter is currently lacking content as we we already have this blog and the
 Again, please Follow our page if you like what we are making. It will help support us, and we will highly appreciate it!
 </p>
 
+<h3>Email:</h3>
+<a href="mailto:Hello@slamatron.com">Email Us!</a>
+<p>
+If you have any business inquires please shoot us an email and we'll get back to you as soon as we can.
+</p>
+
 Thank You!

@@ -5,13 +5,106 @@
     <description>We are a games company. We want to bring the development process to you as we work to create great things. Come hangout and chat with us here : https://discord.gg/zz8FWU4</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 02 May 2019 00:07:58 -0500</pubDate>
-    <lastBuildDate>Thu, 02 May 2019 00:07:58 -0500</lastBuildDate>
-    <generator>Jekyll v3.8.5</generator>
+    <pubDate>Sun, 19 Apr 2020 01:47:38 -0500</pubDate>
+    <lastBuildDate>Sun, 19 Apr 2020 01:47:38 -0500</lastBuildDate>
+    <generator>Jekyll v4.0.0</generator>
     
       <item>
-        <title>Infinite-Runner DevLog #1</title>
-        <description>&lt;h3&gt;Release&lt;/h3&gt;
+        <title>Claymation Style in 3D</title>
+        <description>&lt;h3&gt;Intro&lt;/h3&gt;
+&lt;p&gt;
+I've always been interested in the claymation/stopmotion look ever since I was a kid. I would watch movies such as
+&lt;a href=&quot;https://www.wallaceandgromit.com/&quot;&gt;Wallace and Grommit&lt;/a&gt; in the car during long road-trips. Way back when, when flash games were a thing, there was a website similar
+to today's youtube where I would watch all sorts of indie claymation films and play crazy flash games when flash was still alive... This website some of you might have heard of before;
+It's called &lt;a href=&quot;https://www.newgrounds.com/&quot;&gt;NewGrounds&lt;/a&gt;. I have some good memories from there. There were a few animations and games that really stuck in my memory though.
+&lt;a href=&quot;https://www.youtube.com/watch?v=jwFivfiLxQY&quot;&gt;DoodieMan&lt;/a&gt; being one of them. It's about a superhero, who's super-power is the ability to poop on command... I'll let you watch the video instead of getting into
+the details of that shit.
+
+&lt;p&gt;
+Butt... onto the flash games that I used to play that I suppose had a big influence on my life since I got into making games years later. The flash game was one by
+&lt;a href=&quot;https://joecartoon.com/&quot;&gt;JoeCartoon&lt;/a&gt; Where there's a shit-talking frog stuck in a blender(funny bc now the 3D program I use), slowly spinning around and your job is to taunt him by slowly pressing the buttons of the blender
+increasing the taunts and threats from the frog until eventually the frog goes Bye-Bye. I was a young child at the time so gore for me was some-what taboo so it made it even more interesting. -don't ask me why I like to play Gears of War now...
+&lt;/p&gt;
+
+&lt;p&gt;
+You might be asking yourself what any of that has to do with claymation, well it doesn't! But thinking about claymation got me cruisin' down memory lane on how those early animations and flash games really
+set the stage for my future in Art, Animation, and GameDevelopment.
+&lt;/p&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;
+The way the characters have subtle jitters and movements in the clay where the animators
+positioned the character differently from the last frame, the squash and stretch of the
+clay bringing immense life into an inanimate objects that you can't necessarily get with traditional 3D animation.
+&lt;/p&gt;
+
+&lt;h3&gt;Claymation Is Expensive&lt;/h3&gt;
+&lt;p&gt;
+To make a claymation you need a lot of resources.
+You have to have a decent camera to take the single framed shots of your clay characters. And although I do own a Canon t2i and a tripod, there's other resources that I couldn't afford.
+
+You will have to build sets (scenes) for your characters to be animated in. These sets can be made from an assortment of goods from balsawood, cardboards, to foamboard and more.
+You can really build the sets out of anything. Although depending on how long you want your film to be and how many different scenes you want, this can end up being quite expensive.
+Then even after you've built your scenes you still need to light those scenes, and the lights aren't cheap either.
+
+Once you've got your camera, your scenes &amp;amp; props, and lighting setup, you'll obviously need some Characters which guess what? Are made from clay!
+The characters have metal bones which are made from twisting wire together into a skeletal system called an armature. Once you have your armature built, you then mould the clay
+around the armature to create the form of your character.
+Now It seems like you are finally ready to start filming.
+-Did I tell you that to make a single second of film for a stop-motion film you are going to have to take 24 pictures on your camera?
+That's 1,440 pictures for a single minute of film.
+So it's also very time consuming making a stop motion film and you have to buy a lot of resources, So I set out to figure out how to make the process faster &amp;amp; cheaper.
+
+&lt;h3&gt;Claymation Style on a Budget&lt;/h3&gt;
+I noticed while doing 3D work that people would sculpt their characters with a clay looking matcap on their model. I figured if they are able to do this live while sculpting, then
+the effect could only be recreated and improved upon in a full render. So I set out to find a way to achieve a good looking claymation style in 3D.
+That's when I came upon &lt;a href=&quot;https://mindbender.com/#/home&quot;&gt; Meindbender Animation Studio&lt;/a&gt; work. They have a lot of very cool and inspiring work that looks very claymation esc.
+A lot of what makes meindbender so amazing are their very &lt;a href=&quot;https://vimeo.com/278691057&quot;&gt; complex rigs&lt;/a&gt; for their characters.
+
+I tried to make a similar rig or atleast incorporate some aspects of their rig in &lt;a href=&quot;https://www.blender.org/&quot;&gt; Blender&lt;/a&gt; (A free 3D program) You can find my test &lt;a href=&quot;https://youtu.be/g2VJK93KcHs&quot;&gt; here&lt;/a&gt;. I wanted the face to stretch out with the eye-ball to mimic that the clay-material was being pulled with the eye. I did this with a Cast modifier at first, but this wasn't giving me the fidelity I wanted and was hard to predict/control. I then later found that the hook modifier was a better choice and that with the hook modifier I could select a specific amount of vetices on the face that would be controlled by an empty object and that the hook modifier had a strength attribute that I could change depending on how severe I wanted to make the control. With the hook modifier you are even able to weight paint the vertex group that the empty controls for even finer control.
+&lt;/p&gt;
+
+&lt;p&gt;
+Now you might be wondering what is that clay looking material I am using in Blender? It's a downloadable shader made by DoubleGum with tons of features which you can download &lt;a href=&quot;https://blendermarket.com/products/claydoh&quot;&gt; here&lt;/a&gt;. It is well worth the money as it has tons of controls which you can change in the shader editor. It even has an automatic texture movement when you animate that mimics the movement of fingerprints and claymovement as it would if you were moulding the clay every frame. If you can't afford this though, then don't fret. There's a nice blog post &lt;a href=&quot;https://blenderartists.org/t/realistic-clay-material-in-cycles/576258&quot;&gt; here&lt;/a&gt; that will show you how to create a basic clay material from scratch.
+&lt;/p&gt;
+
+&lt;h3&gt;Claymation in games&lt;/h3&gt;
+&lt;p&gt;
+I've also tried to make claymation for games as well. I made some bones in my characters feet that would mimic the squashing effect of clay which you can see &lt;a href=&quot;https://www.facebook.com/Slamatron/videos/1849785161972836/&quot;&gt; here&lt;/a&gt;. I was looking into how to get the clay-mation type material in Unity3D as well, but the version of Unity I was using at the time didn't have PBR materials so everything looked very bad. I'm sure if you wanted to do it now It'd be a lot easier specially with Unity's HDRP and the shader graph. I will definately update this post if I get something working in Engine.
+&lt;/p&gt;
+
+&lt;p&gt;
+I'm hoping that this post has been somewhat informative for you or atleast beneficial in helping you achieve a claymation style in 3D. If not I'm hoping that you at least found a nice assortment of resources in this post to aid you.
+&lt;/p&gt;
+
+&lt;p&gt;
+I will be updating this post more and more as I find out new techniques to achieve the claymation/stop-motion style/look in Blender. Please contact us using the email in the footer if you have any insight to help. Thank you!
+&lt;/p&gt;
+
+&lt;!-- &lt;h2&gt;Clay Experiments 1&lt;/h2&gt; --&gt;
+
+&lt;h3&gt;Resources:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://blenderartists.org/t/realistic-clay-material-in-cycles/576258&quot;&gt;(Tutorial) Basic Blender Clay Material&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.pedroconti.com/&quot;&gt; (Website) Pedro Conti&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://olovburman.com/&quot;&gt; (Website) Olav Burman&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://nki.tv/#!/fr/works/&quot;&gt;(Animation Company) NKI &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/user/PatrickBoivin/videos&quot;&gt;(Stop-Motion Animator) Patrick Boivin&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/user/leehardcastle/videos&quot;&gt;(Stop-Motion Animator) Lee Hardcastle&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://blendermarket.com/products/claydoh&quot;&gt;(Purchasable) Advanced Blender Clay Material - By : DoubleGum&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCOWrbryuVEPUMSSgayuLURg&quot;&gt;(Videos) SouthernShotty youtube channel has videos about creating claymation type visuals in Blender&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.cgbookcase.com/textures/fingerprints-01&quot;&gt;(Texture) HD Fingerprint texture - 1k, 2k, and 3k rez&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.williamchild.co.uk/&quot;&gt;(Website) William Child Films - Makes music videos/commercials in claymation style&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Here's the code :&lt;/p&gt;
 
@@ -21,14 +114,12 @@
 &lt;p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;
 </description>
-        <pubDate>Tue, 23 Apr 2019 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/infiniterunner/2019/04/23/Infinite-Runner-Test-Post/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/infiniterunner/2019/04/23/Infinite-Runner-Test-Post/</guid>
+        <pubDate>Thu, 16 Apr 2020 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/blog/2020/04/16/Claymation-Style-in-3D/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2020/04/16/Claymation-Style-in-3D/</guid>
         
         
         <category>blog</category>
-        
-        <category>infiniterunner</category>
         
       </item>
     
