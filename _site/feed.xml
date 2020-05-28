@@ -5,9 +5,158 @@
     <description>We are a games company. We want to bring the development process to you as we work to create great things. Come hangout and chat with us here : https://discord.gg/zz8FWU4</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 19 Apr 2020 01:47:38 -0500</pubDate>
-    <lastBuildDate>Sun, 19 Apr 2020 01:47:38 -0500</lastBuildDate>
+    <pubDate>Tue, 05 May 2020 11:46:20 -0500</pubDate>
+    <lastBuildDate>Tue, 05 May 2020 11:46:20 -0500</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Westerwood DevLog 001</title>
+        <description>&lt;h3&gt;What is Westerwood?&lt;/h3&gt;
+&lt;p&gt;
+Westerwood is a 3rd person western action/adventure game for mobile.
+It's key features are breathtaking exploration in vast lands.
+&lt;/p&gt;
+
+&lt;h3&gt;Learning github and github desktop&lt;/h3&gt;
+&lt;p&gt;
+This being the first devlog a lot of what is going into this is just learning some basics for a speedier workflow in the future!
+I've learned that you can use Github issues as progress trackers with your team. They don't always have to be bugs, but can be really anything. You can tag your issues with assortment of tags from Features, Bug, Documentation, Help Wanted, and even create your own tags!
+&lt;/p&gt;
+&lt;p&gt;
+
+&lt;a href=&quot;https://help.github.com/en/enterprise/2.16/user/github/managing-your-work-on-github/closing-issues-using-keywords&quot;&gt; Useful keywords used to close issues&lt;/a&gt;
+
+
+
+&lt;a href=&quot;https://www.youtube.com/watch?v=9H0aJhKSlEQ&quot;&gt; Animate a POLYGON character from SyntyStudios with Mixamo&lt;/a&gt;
+
+&lt;a href=&quot;https://malbersanimations.gitbook.io/animal-controller/&quot;&gt; Animal Controller from Malbers Animation's HAP assets&lt;/a&gt;
+
+&lt;a href=&quot;https://docs.google.com/document/d/1NBy_RQan4Snv6loWhjRZH5UA7jPw6T2JeZiCikCfuSI/edit#heading=h.cqhcpvpgaydk&quot;&gt; Malbers other documentation&lt;/a&gt;
+
+
+
+
+
+&lt;/p&gt;
+
+&lt;h3&gt;Resources:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/Der_Kevin&quot;&gt; (Twitter Handle) KevKev twitter handle (makes some cool games using active ragdolls a lot)&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 22 Apr 2020 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/blog/2020/04/22/Westerwood-DevLog-001/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2020/04/22/Westerwood-DevLog-001/</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Active Ragdolls In Unity</title>
+        <description>&lt;h3&gt;Intro&lt;/h3&gt;
+&lt;p&gt;
+&lt;/p&gt;
+
+&lt;h3&gt;Physics Animation&lt;/h3&gt;
+
+&lt;h3&gt;Inverse Kinematics&lt;/h3&gt;
+&lt;p&gt;
+&lt;a href=&quot;https://www.youtube.com/watch?v=MElbAwhMvTc&quot;&gt; Video tutorial on all of Unity's Joints&lt;/a&gt; used as the basis for Inverse kinematics and Active Ragdolls. The joints are what allow your objects to rotate specific ways with physics. -Meaning minimal code since the physics engine will be handling most of the movement.
+
+&lt;/p&gt;
+
+&lt;!-- &lt;h2&gt;Clay Experiments 1&lt;/h2&gt; --&gt;
+
+&lt;h3&gt;Resources:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://80.lv/articles/tools-and-tips-for-hard-surface-modeling-in-blender-2-8&quot;&gt; (80LVL Article) Hardsurface article in Blender by Michał Kalisz includes Blender Add-ons List&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.patreon.com/posts/35982173&quot;&gt; (Free Patreon Tutorial) How to “Animate” Joints by : Kev&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/Der_Kevin&quot;&gt; (Twitter Handle) KevKev twitter handle (makes some cool games using active ragdolls a lot)&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 22 Apr 2020 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/blog/2020/04/22/Active-Ragdolls-In-Unity/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2020/04/22/Active-Ragdolls-In-Unity/</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Hard Surface Modeling In Blender</title>
+        <description>&lt;h3&gt;Intro&lt;/h3&gt;
+&lt;p&gt;
+&lt;/p&gt;
+
+&lt;!-- &lt;h2&gt;Clay Experiments 1&lt;/h2&gt; --&gt;
+
+&lt;h3&gt;Resources:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://80.lv/articles/tools-and-tips-for-hard-surface-modeling-in-blender-2-8&quot;&gt; (80LVL Article) Hardsurface article in Blender by Michał Kalisz includes Blender Add-ons List&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 20 Apr 2020 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/blog/2020/04/20/Hardsurface-Modeling-In-Blender/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2020/04/20/Hardsurface-Modeling-In-Blender/</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>3D Sculpting in Blender</title>
+        <description>&lt;h3&gt;Intro&lt;/h3&gt;
+&lt;p&gt;
+&lt;/p&gt;
+
+&lt;h3&gt;Base Mesh&lt;/h3&gt;
+&lt;p&gt;
+&lt;a href=&quot;https://cubebrush.co/rodesqa&quot;&gt; (Website) Rodesqa's base meshes &amp;amp; more&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;h3&gt;Sculpting&lt;/h3&gt;
+&lt;p&gt;
+&lt;h4&gt;Eye Detail&lt;/h4&gt;
+&lt;div class=&quot;embed-responsive embed-responsive-16by9&quot;&gt;
+	&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/watch?v=ZcdzaMdZv8g&amp;amp;t=333s&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h4&gt;Mouth Detail&lt;/h4&gt;
+&lt;div class=&quot;embed-responsive embed-responsive-16by9&quot;&gt;
+	&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/watch?v=O4LBTC8MHG4&amp;amp;t=948s&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+
+&lt;h3&gt;Retopo&lt;/h3&gt;
+&lt;p&gt;
+&lt;/p&gt;
+
+&lt;!-- &lt;h2&gt;Clay Experiments 1&lt;/h2&gt; --&gt;
+
+&lt;h3&gt;Resources:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://blenderartists.org/t/realistic-clay-material-in-cycles/576258&quot;&gt;(Tutorial) Basic Blender Clay Material&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCnXU0MjnApXHZkf3uGYbLSA/videos&quot;&gt; (Youtube) FlyCat&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCfjswDVU0XHyBN7UFG0Mi5Q/videos&quot;&gt; (Youtube) Yans Sculpts&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 19 Apr 2020 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/blog/2020/04/19/3D-Sculpting-In-Blender/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2020/04/19/3D-Sculpting-In-Blender/</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>Claymation Style in 3D</title>
@@ -75,6 +224,13 @@ I've also tried to make claymation for games as well. I made some bones in my ch
 &lt;/p&gt;
 
 &lt;p&gt;
+I've just found a awesome FREE plugin for Unity3D that allows you to make claymation looking voxels creations in Unity which you can download here : &lt;a href=&quot;https://andrea-intg.itch.io/clayxels&quot;&gt; Clayxels&lt;/a&gt;.
+
+&lt;img src=&quot;https://img.itch.zone/aW1nLzI5MTIyNzIuZ2lm/original/Fum0T6.gif&quot; width=&quot;250&quot; height=&quot;200&quot; /&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;
 I'm hoping that this post has been somewhat informative for you or atleast beneficial in helping you achieve a claymation style in 3D. If not I'm hoping that you at least found a nice assortment of resources in this post to aid you.
 &lt;/p&gt;
 
@@ -87,6 +243,8 @@ I will be updating this post more and more as I find out new techniques to achie
 &lt;h3&gt;Resources:&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://blenderartists.org/t/realistic-clay-material-in-cycles/576258&quot;&gt;(Tutorial) Basic Blender Clay Material&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=3D3Iy5C7FHg&quot;&gt; (Tutorial) Stopmotion tutorial in Blender by TeamMiracles&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.pedroconti.com/&quot;&gt; (Website) Pedro Conti&lt;/a&gt;&lt;/p&gt;
 
@@ -106,13 +264,6 @@ I will be updating this post more and more as I find out new techniques to achie
 
 &lt;p&gt;&lt;a href=&quot;http://www.williamchild.co.uk/&quot;&gt;(Website) William Child Films - Makes music videos/commercials in claymation style&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Here's the code :&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c#&quot; data-lang=&quot;c#&quot;&gt;	&lt;span class=&quot;n&quot;&gt;NO&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;CODE&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;TO&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;SHOW&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;HERE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;JUST&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;A&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;TEST&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;!&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 16 Apr 2020 00:00:00 -0500</pubDate>
         <link>http://localhost:4000/blog/2020/04/16/Claymation-Style-in-3D/</link>
