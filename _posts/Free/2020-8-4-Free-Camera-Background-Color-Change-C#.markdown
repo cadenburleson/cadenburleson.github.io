@@ -25,7 +25,7 @@ Check out the [Jekyll docs][jekyll] for more info on how to get the most out of 
 [jekyll]:    http://jekyllrb.com
 
 -->
-
+<div>
 <p>
 Here's the code :
 </p>
@@ -81,6 +81,9 @@ Demo Video on how to use this script coming soon!
 In the meantime watch a video by : Hamza Herbou that inspired this script.
 </p>
 
-<p>
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=C_f2ChrcSSM" frameborder="0" allowfullscreen></iframe>
-</p>
+<div class="embed-responsive embed-responsive-16by9">
+	<iframe width="560" height="315, initial-scale=1" src="https://www.youtube.com/embed/C_f2ChrcSSM" frameborder="0" allowfullscreen></iframe>
+    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/C_f2ChrcSSM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+</div>
+
+</div>

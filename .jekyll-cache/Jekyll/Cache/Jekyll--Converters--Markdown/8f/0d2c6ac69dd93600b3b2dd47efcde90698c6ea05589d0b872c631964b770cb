@@ -1,4 +1,4 @@
-I"g<!--
+I"Ò<!--
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
 To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
 
@@ -18,7 +18,7 @@ Check out the [Jekyll docs][jekyll] for more info on how to get the most out of 
 [jekyll]:    http://jekyllrb.com
 
 -->
-
+<div>
 <p>
 Here's the code :
 </p>
@@ -29,7 +29,6 @@ alt = "my helpful screenshot"
 style="width:300px;height:300px;"
 /> -->
 
-<p><img src="/assets/FadeColorComponent.png" alt="FadeColorComponent" style="width:350px; height:300px;" /></p>
 
 <figure class="highlight"><pre><code class="language-c#" data-lang="c#"><span class="k">using</span> <span class="nn">UnityEngine</span><span class="p">;</span>
 
@@ -64,12 +63,18 @@ style="width:300px;height:300px;"
 
 <span class="p">}</span></code></pre></figure>
 
+
+<h4>The Component</h4>
+<img src="/assets/FadeColorComponent.png" alt="FadeColorComponent" style="width:400px; height:300px;" />
+
 <p>
 Demo Video on how to use this script coming soon!
 In the meantime watch a video by : Hamza Herbou that inspired this script.
 </p>
 
-<p>
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=C_f2ChrcSSM" frameborder="0" allowfullscreen=""></iframe>
-</p>
+<div class="embed-responsive embed-responsive-16by9">
+	<iframe width="560" height="315, initial-scale=1" src="https://www.youtube.com/embed/watch?v=C_f2ChrcSSM" frameborder="0" allowfullscreen=""></iframe>
+</div>
+
+</div>
 :ET
