@@ -9,21 +9,19 @@ permalink: /games/infiniterunner/
 	<header class="post-header">
     	<h1>Infinite-Runner</h1>
   	</header>
-	<h2>COMING SOON!</h2>
+
 	<p>
-		Since Slamatron as a company is currently a one man team.
-		This game is Slamatron's sole priority atm. All other Slamatron games will be developed after this game is finished.
-	</p>
-	<h3>System :</h3>
-	<p>
-		Set to release on all Apple Mobile devices.
-	</p>
-	<h3>Release Date :</h3>
-	<p>
-		Coming Soon!
+	<div class="embed-responsive embed-responsive-16by9">
+				<iframe width="560" height="315" src="https://www.youtube.com/watch?v=c_zaRy9eZYw" frameborder="0" allowfullscreen></iframe>
+			</div>
 	</p>
 
-<h2>Posts : </h2>
+	<H4>System : IOS</H4>
+	<H4>Release Date : Coming Soon</H4>
+
+<h3>Posts</h3>
+
+<h4>Nothing here yet...</h4>
 
 	<ul class="posts">
     {% for post in site.categories.infiniterunner %}

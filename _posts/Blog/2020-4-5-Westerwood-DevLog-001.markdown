@@ -30,9 +30,6 @@ I've learned that you can use Github issues as progress trackers with your team.
 <a href="https://docs.google.com/document/d/1NBy_RQan4Snv6loWhjRZH5UA7jPw6T2JeZiCikCfuSI/edit#heading=h.cqhcpvpgaydk"> Malbers other documentation</a>
 
 
-
-
-
 </p>
 
 
