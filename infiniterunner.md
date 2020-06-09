@@ -12,9 +12,10 @@ permalink: /games/infiniterunner/
 
 	<p>
 	<div class="embed-responsive embed-responsive-16by9">
-				<iframe width="560" height="315" src="https://www.youtube.com/watch?v=c_zaRy9eZYw" frameborder="0" allowfullscreen></iframe>
-			</div>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/c_zaRy9eZYw" frameborder="0" allowfullscreen></iframe>
+		</div>
 	</p>
+
 
 	<H4>System : IOS</H4>
 	<H4>Release Date : Coming Soon</H4>
