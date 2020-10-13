@@ -6,12 +6,56 @@ body {
   background-color: #fdfdfd;
 }
 
-.pageslot {
-  height: 600px;
-  width: 100%;
-  background-color: #4e4e4e;
+/* 
+Some Shit Below 
+*/
+
+.flexbox-container{
+  display: flex;
+  justify-content: space-around;
+  background-color: yellow;
+
+  border-color: black;
+  border-radius: 1px;
+  border-style: solid;
 }
 
+.flexbox-blog-item{
+
+}
+
+.flexbox-item{
+  width: 50%;
+  height: 50%;
+
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+
+  margin: 5px;
+  background-color: cornsilk;
+}
+
+.col-fifty{
+  margin-right: 10px;
+}
+
+.center{
+  margin : auto;
+}
+
+.p-item {
+  margin-right: 10px;
+}
+
+.center{
+  position: relative;
+  top: 50%;
+  margin: 20px;
+  text-align: center;
+}
+
+.
 /*p {
   font-size: 10px;
 }*/

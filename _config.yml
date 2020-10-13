@@ -5,7 +5,7 @@ description: "We are a games company. We want to bring the development process t
 baseurl: ""
 url: "http://Slamatron.com"
 twitter_username: Slamatron
-github_username: cadenburleson
+# github_username: cadenburleson
 
 # Build settings
 markdown: kramdown
