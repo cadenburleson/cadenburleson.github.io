@@ -31,12 +31,12 @@ permalink: /team/
 				<h5>Languages:</h5>
 				<p>C# (C-Sharp), JavaScript, HTML, and CSS.</p>
 				<p>
-					<a href="https://docs.google.com/document/d/1yoBM2ocbgjIMC0FEMftuDyluynPI1jRHzNSGnc05do0/edit?usp=sharing" class="btn btn-default" role="button">Resume</a>
+					<!-- <a href="https://docs.google.com/document/d/1yoBM2ocbgjIMC0FEMftuDyluynPI1jRHzNSGnc05do0/edit?usp=sharing" class="btn btn-default" role="button">Resume</a> -->
 					<a href="https://www.artstation.com/cadenb" class="btn btn-default" role="button">Art</a>
-					<a href="mailto:devcaden@gmail.com" class="btn btn-default" role="button">Hire</a>
+					<!-- <a href="mailto:devcaden@gmail.com" class="btn btn-default" role="button">Hire</a> -->
 					<a href="https://medium.com/@CadenBurleson" class="btn btn-default" role="button">Blog</a>
 				</p>
-			</div>
+			</div>  
 		</div>
 	</div>
 
